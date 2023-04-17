@@ -9,7 +9,7 @@ body {
 }
 
 a {
-  color: aqua;
+  color:white;
   text-decoration: none;
   font-size: 1rem;
 }
@@ -51,7 +51,7 @@ h2{
   text-align: center;
 }
 .backButton{
-  color: aqua;
+  color: white;
 }
 
 .containerDetailMovies{
@@ -67,4 +67,17 @@ h2{
   justify-content: center;
   height: 70vh;
   
+}
+
+
+#title{
+  color: rgb(3, 3, 3);
+  text-shadow: -20px 0px 7px rgb(245, 245, 245);
+  align-self: center;
+}
+
+.align{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
