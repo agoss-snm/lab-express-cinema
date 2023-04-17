@@ -90,4 +90,6 @@ h2{
 #titleMainPage{
   text-shadow: -20px 0px 7px rgb(221, 124, 124);
 }
-
+#mainButton:hover{
+background-color: brown;
+}
