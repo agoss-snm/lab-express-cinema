@@ -9,24 +9,17 @@ body {
 }
 
 a {
-  color: #0a6a91;
+  color: aqua;
   text-decoration: none;
   font-size: 1rem;
 }
 
-#container{
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
-  height: 70vh
-}
+
 h1{
   font-size: 4rem;
 }
 button{
-background-color: aliceblue;
+background-color: black;
 height: 3rem;
 border-radius: 20px;
 border-color: white;
@@ -35,7 +28,7 @@ border-color: white;
 .searchMovies{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: rgba(240, 248, 255, 0.671);
+  background-color: rgba(255, 255, 255, 0.301);
   align-items: center;
 }
 .movies{
@@ -53,4 +46,25 @@ h2{
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: rgba(255, 255, 255, 0.301);
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+}
+.backButton{
+  color: aqua;
+}
+
+.containerDetailMovies{
+  padding: 10px;
+}
+
+
+#container{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  height: 70vh;
+  
 }
