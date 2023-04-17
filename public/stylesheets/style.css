@@ -2,52 +2,54 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-image: url('../images/cinema.jpg');
-  background-size:cover;
-  background-position:  center center;
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed
 }
 
 a {
-  color:white;
+  color: white;
   text-decoration: none;
   font-size: 1rem;
 }
 
 
-h1{
+h1 {
   font-size: 4rem;
 }
 
-.titles{
+.titles {
   color: rgb(44, 44, 44);
 }
-button{
- background-color: rgba(44, 44, 44, 0.644);
-height: 3rem;
-border-radius: 20px;
-border-color: white;
+
+button {
+  background-color: rgba(44, 44, 44, 0.644);
+  height: 3rem;
+  border-radius: 20px;
+  border-color: white;
 }
 
-.searchMovies{
+.searchMovies {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   background-color: rgba(255, 255, 255, 0.301);
   align-items: center;
   border-radius: 10px;
 }
-.movies{
+
+.movies {
   justify-content: center;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-h2{
+h2 {
   color: white;
 }
 
-#container-detail{
+#container-detail {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: rgba(255, 255, 255, 0.301);
@@ -55,41 +57,41 @@ h2{
   align-items: center;
   text-align: center;
 }
-.backButton{
+
+.backButton {
   color: white;
 }
 
-.containerDetailMovies{
+.containerDetailMovies {
   padding: 10px;
 }
 
 
-#container{
+#container {
   color: white;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
   height: 70vh;
-  
 }
 
-
-#title{
+#title {
   color: rgb(44, 44, 44);
   text-shadow: -20px 0px 7px rgb(245, 245, 245);
   align-self: center;
 }
 
-.align{
+.align {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#titleMainPage{
+#titleMainPage {
   text-shadow: -20px 0px 7px rgb(221, 124, 124);
 }
-#mainButton:hover{
-background-color: brown;
+
+#mainButton:hover {
+  background-color: brown;
 }
