@@ -95,3 +95,11 @@ h2 {
 #mainButton:hover {
   background-color: brown;
 }
+
+.moviesImg> img{
+  width: 100%;
+  height: auto;
+}
+.moviesImg> img:hover{
+  transform: scale(1.15);
+}
