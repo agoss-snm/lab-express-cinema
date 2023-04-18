@@ -32,7 +32,7 @@ button {
 
 .searchMovies {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
   border-radius: 10px;
 }
@@ -44,11 +44,15 @@ button {
   align-items: center;
   border: solid;
   border-color: white;
-  background-color: rgba(255, 255, 255, 0.301);
-  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.735);
+  max-width: 300px;
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
+}
+
+.movies:hover {
+  transform: scale(1.15);
 }
 
 
@@ -105,9 +109,6 @@ h2 {
 }
 
 .moviesImg> img{
-  width: 100%;
-  height: auto;
-}
-.moviesImg> img:hover{
-  transform: scale(1.15);
+  width: auto;
+  height: 100%;
 }
