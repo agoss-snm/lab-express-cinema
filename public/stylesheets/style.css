@@ -33,7 +33,6 @@ button {
 .searchMovies {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: rgba(255, 255, 255, 0.301);
   align-items: center;
   border-radius: 10px;
 }
@@ -43,7 +42,15 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: solid;
+  border-color: white;
+  background-color: rgba(255, 255, 255, 0.301);
+  max-width: 400px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
 }
+
 
 h2 {
   color: white;
@@ -56,6 +63,7 @@ h2 {
   border-radius: 10px;
   align-items: center;
   text-align: center;
+  border: solid white;
 }
 
 .backButton {
